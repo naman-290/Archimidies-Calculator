@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/graphs"
+    android:title="graphs"
+    app:showAsAction="never"/>
+    <item
+        android:id="@+id/D_graphs"
+        android:title="3D Graphs"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/Advance_Calculator"
+        android:title="Advance Calculator"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/trigo"
+                android:title="Trigo"
+                />
+            <item android:id="@+id/inv_trigo"
+                android:title="Inv-Trigo"
+                />
+            <item android:id="@+id/other"
+                android:title="Other Function"
+                />
+        </menu>
+    </item>
+</menu>
